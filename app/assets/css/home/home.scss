@@ -1,0 +1,103 @@
+@import "../common/color";
+@import "../common/mixin";
+
+.home-page {
+
+  .main-carousel {
+    height: 730px;
+
+    .ant-carousel {
+      height: 730px;
+
+      .item {
+        height: 730px;
+      }
+    }
+  }
+
+  .focus {
+    margin-bottom: 50px;
+
+    .f-header {
+      margin: 70px 0 50px 0;
+      width: 100%;
+      height: 88px;
+      background: center no-repeat;
+    }
+
+    ul {
+      margin: 0 auto;
+      width: 1280px;
+      height: 150px;
+
+      li {
+        float: left;
+        margin-right: 38px;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #565454;
+        border-radius: 20px;
+        text-align: center;
+        color: $font-default;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+
+        .c {
+          line-height: 70px;
+          font-size: 65px;
+          font-family: '829-CAI978';
+        }
+
+        .cn {
+          font-size: 25px;
+          font-weight: 400;
+        }
+
+        .en {
+          color: #c9caca;
+          font-size: 13px;
+          font-family: '829-CAI978';
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          border: 1px solid #c8954d;
+          background: #c8954d;
+          color: #fff;
+
+          .en {
+            color: #fff;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .dong {
+    width: 100%;
+    height: 827px;
+    background: center no-repeat;
+  }
+
+  .coop {
+    margin-top: 30px;
+    width: 100%;
+    height: 159px;
+  }
+
+  .custeval-list {
+    margin-top: 50px;
+  }
+
+  .renke {
+    margin: 70px 0 50px 0;
+    width: 100%;
+    height: 356px;
+    background: center no-repeat;
+  }
+}
